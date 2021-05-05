@@ -13,6 +13,9 @@
 		0248036E26429770002377ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0248036D26429770002377ED /* Preview Assets.xcassets */; };
 		0248037926429770002377ED /* Cinema_BookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248037826429770002377ED /* Cinema_BookingTests.swift */; };
 		0248038426429770002377ED /* Cinema_BookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248038326429770002377ED /* Cinema_BookingUITests.swift */; };
+		0248039426429D83002377ED /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248039326429D83002377ED /* CinemaModel.swift */; };
+		0248039626429E89002377ED /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0248039526429E89002377ED /* Home.swift */; };
+		024803982642A1C9002377ED /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024803972642A1C8002377ED /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		0248037F26429770002377ED /* Cinema BookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cinema BookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0248038326429770002377ED /* Cinema_BookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinema_BookingUITests.swift; sourceTree = "<group>"; };
 		0248038526429770002377ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0248039326429D83002377ED /* CinemaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaModel.swift; sourceTree = "<group>"; };
+		0248039526429E89002377ED /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		024803972642A1C8002377ED /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,8 @@
 		024803652642976F002377ED /* Cinema Booking */ = {
 			isa = PBXGroup;
 			children = (
+				0248039226429D73002377ED /* Model */,
+				02480391264297DF002377ED /* View */,
 				024803662642976F002377ED /* Cinema_BookingApp.swift */,
 				024803682642976F002377ED /* ContentView.swift */,
 				0248036A26429770002377ED /* Assets.xcassets */,
@@ -128,6 +136,23 @@
 				0248038526429770002377ED /* Info.plist */,
 			);
 			path = "Cinema BookingUITests";
+			sourceTree = "<group>";
+		};
+		02480391264297DF002377ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0248039526429E89002377ED /* Home.swift */,
+				024803972642A1C8002377ED /* BookingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0248039226429D73002377ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0248039326429D83002377ED /* CinemaModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0248039426429D83002377ED /* CinemaModel.swift in Sources */,
 				024803692642976F002377ED /* ContentView.swift in Sources */,
+				0248039626429E89002377ED /* Home.swift in Sources */,
 				024803672642976F002377ED /* Cinema_BookingApp.swift in Sources */,
+				024803982642A1C9002377ED /* BookingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
